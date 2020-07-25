@@ -1,0 +1,5 @@
+name: HarderPigmen
+main: curtain.harderpigmen.HarderPigmen
+version: 0.1
+api-version: 1.16
+description: cause they aint hard enough

@@ -11,11 +11,4 @@ public class HarderPigmen extends JavaPlugin
 	{
 		Bukkit.getPluginManager().registerEvents(new PigmenListener(), this);
 	}
-	
-	@Override
-	public void onDisable()
-	{
-		
-	}
-	
 }

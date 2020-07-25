@@ -37,6 +37,7 @@ public class PigmenListener implements Listener
 	}
 	
 	//tee hee
+	//if anyone can find a better way to do this lmk this is on a small server anyway nbd
 	@EventHandler
 	public void onMove(PlayerMoveEvent event)
 	{

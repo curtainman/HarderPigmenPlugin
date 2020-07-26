@@ -37,14 +37,6 @@
             </goals>
           </execution>
         </executions>
-        <configuration>
-          <relocations>
-            <relocation>
-              <pattern>de.tr7zw.changeme.nbtapi</pattern>
-              <shadedPattern>curtain.nbtapi</shadedPattern>
-            </relocation>
-          </relocations>
-        </configuration>
       </plugin>
       <plugin>
         <artifactId>maven-resources-plugin</artifactId>

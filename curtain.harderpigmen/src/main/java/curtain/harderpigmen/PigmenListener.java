@@ -25,7 +25,7 @@ public class PigmenListener implements Listener
 			PigZombie thing = (PigZombie) entity;
 			thing.setAngry(true);
 			thing.setAnger(100);
-			for(Entity entities : thing.getNearbyEntities(100, 100, 100))
+			for(Entity entities : thing.getNearbyEntities(48, 48, 48))
 			{
 				if(entities.getType().equals(EntityType.PLAYER))
 				{
@@ -42,7 +42,7 @@ public class PigmenListener implements Listener
 	public void onMove(PlayerMoveEvent event)
 	{
 		Player player = event.getPlayer();
-		for(Entity entities : player.getNearbyEntities(100, 100, 100))
+		for(Entity entities : player.getNearbyEntities(48, 48, 48))
 		{
 			if(entities.getType().equals(EntityType.ZOMBIFIED_PIGLIN))
 			{
